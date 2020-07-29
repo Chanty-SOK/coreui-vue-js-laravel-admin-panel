@@ -1,0 +1,29 @@
+{
+    "age_verification": {
+        "title": "Age verification",
+        "personal_name": "User Name",
+        "gender": "Gender",
+        "doc": "Verification Documents",
+        "verified": "Verified",
+        "not_verified": "Not Verify",
+        "rejected": "Rejected",
+        "view": "View",
+        "verify": "Verify",
+        "reject": "Reject",
+        "status": "Status",
+        "rejected_reason": "Reject reason",
+        "confirm_send": "Confirm send",
+        "confirm_send_msg": "Send with the following contents. Is it OK?",
+        "document_type": "Certificate",
+        "browser": "Age verification",
+        "send": "Send",
+        "user_register_info": "User registration information",
+        "dob": "Date of Birth",
+        "detail": "Detial",
+        "profile_image": "Profile image",
+        "invalid": "Please Select All Requirement form such as Accept/ Deny, and Reason.",
+        "pending": "Pending",
+        "accepted": "Accept"
+    }
+
+}

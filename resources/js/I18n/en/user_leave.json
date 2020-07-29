@@ -1,0 +1,9 @@
+{
+    "user_leave" : {
+        "list_user_leave" : "List User Leave",
+        "reason" : "Leave Reason",
+        "id" : "ID",
+        "description" : "Description",
+        "leaved_at" : "Leaved At"
+    }
+}

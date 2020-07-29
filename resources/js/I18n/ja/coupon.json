@@ -1,0 +1,22 @@
+{
+    "coupon" : {
+        "header_title" : "クーポン",
+        "title" : "タイトル",
+        "duration" : "期間",
+        "type" : "タイプ",
+        "expired_at": "有効期限",
+        "number_of_code": "クーポンコード発行数",
+        "type_month" : "月",
+        "type_year" : "年",
+        "type_day" : "日",
+        "limit_available" : "使用ユーザ制限",
+        "id": "ID",
+        "code": "コード",
+        "action": "アクション",
+        "used": "使用済み",
+        "gender": "性別",
+        "male": "男性",
+        "female": "女性",
+        "both": "両方"
+    }
+}

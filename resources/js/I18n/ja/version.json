@@ -1,0 +1,13 @@
+{
+  "version": {
+    "version": "バージョン",
+    "version_code": "バージョンコード",
+    "os": "OS",
+    "update_type": "アップデートタイプ",
+    "content": "本文",
+    "update_types": {
+      "force_update": "強制アップデート",
+      "recommend": "リコメンド"
+    }
+  }
+}

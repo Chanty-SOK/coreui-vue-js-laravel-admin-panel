@@ -1,0 +1,14 @@
+{
+    "request_plan": {
+        "title_list": "有料プラン",
+        "title_create": "Create New Request Plan",
+        "title": "タイトル",
+        "quantity" : "数",
+        "apple_product": "Apple product ID",
+        "google_product": "Google play product ID",
+        "apple_fee": "AppStore価格",
+        "google_fee": "Google play価格",
+        "description": "詳細",
+        "color": "色"
+    }
+}

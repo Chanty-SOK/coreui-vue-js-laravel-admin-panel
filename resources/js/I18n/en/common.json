@@ -1,0 +1,53 @@
+{
+  "modal": {
+    "title_create": "Create New",
+    "title_edit": "Edit",
+    "title_delete": "Delete",
+    "title_detail": "Detail",
+    "title_change_password": "Change Password"
+  },
+  "common": {
+    "add_new_title": "Create New",
+    "btn_save": "Save",
+    "btn_edit": "Edit",
+    "delete_header_title": "Delete",
+    "btn_cancel": "Cancel",
+    "btn_close": "Close",
+    "add_new" : "Add New",
+    "selectbox_placeholder" : "Please Select",
+    "detail_title" : "Detail",
+    "tooltip": {
+      "verify": "Verify",
+      "detail": "Detail",
+      "edit": "Edit",
+      "delete": "Delete",
+      "change_password" : "Change Password"
+    },
+    "action": "Action",
+    "yes" : "Yes",
+    "no" : "No",
+    "android" : "Android",
+    "ios" : "IOS",
+    "delete_confirmation_message": "Are you sure that you want to delete this row?"
+  },
+  "sidebar" : {
+    "version" : "Version",
+    "main_navigation": "Main Navigation",
+    "coupon": "Coupon",
+    "user_leave" : "User Leave Reason",
+    "push_notification": "Push Notification",
+    "request_plan" : "Request Plan",
+    "subscription" : "Subscriptoin",
+    "user_management" : "User",
+    "tag" : "Tag",
+    "report_user": "Report User"
+  },
+  "tooltip": {
+    "verify": "Verify",
+    "detail": "Detail",
+    "edit": "Edit",
+    "delete": "Delete",
+    "change_password" : "Change Password",
+    "coupon_code" : "Coupon Codes"
+  }
+}

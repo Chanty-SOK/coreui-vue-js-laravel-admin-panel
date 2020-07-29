@@ -1,0 +1,26 @@
+{
+    "user": {
+        "title_list": "User Management",
+        "name": "Name",
+        "email": "E-Mail",
+        "dob": "Date of Birth",
+        "gender": "Gender",
+        "female": "Female",
+        "male": "Male",
+        "role": "Role",
+        "confirm_update": "Do you really want to save this record?",
+        "confirm_delete": "Do you really want to delete this record?",
+        "age_reviewer": "Age Reviewer",
+        "admin": "Admin",
+        "change_password": "パスワード変更",
+        "new_password": "New Password",
+        "confirm_new_password" : "Confirm new password"
+    },
+    "validation": {
+        "invalid_dob": "User must be older than 18",
+        "invalid_email": "Wrong E-Mail Format",
+        "invalid_password": "Password must be over 8 characters and the same as Confirm Password",
+        "not_found": "Selection entity not found.",
+        "incorrect_old_password": "The old password not matched"
+    }
+}

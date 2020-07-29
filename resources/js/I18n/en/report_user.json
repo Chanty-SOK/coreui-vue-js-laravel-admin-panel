@@ -1,0 +1,14 @@
+{
+    "report_user" : {
+        "id": "ID",
+        "reporter_user_id": "Reporter User ID",
+        "reported_user_id": "Reported User ID",
+        "reporter" : "Reporter",
+        "user" : "User",
+        "reason" : "Reason",
+        "place" : "Place",
+        "reported_at" : "Reported at",
+        "description" : "Description",
+        "list_report_user": "Report User List"
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "subscription" : {
+    "list_title" : "プラン",
+    "title" : "タイトル",
+    "duration" : "期間",
+    "apple_product" : "Apple product ID",
+    "google_product" : "Google play product ID",
+    "apple_fee" : "AppStore価格",
+    "google_fee" : "Google play価格",
+    "description" : "詳細",
+    "duration_type" : "期間タイプ",
+    "color" : "色"
+  }
+}
