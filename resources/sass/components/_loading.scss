@@ -1,0 +1,25 @@
+.c-loading {
+    z-index: 1051;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.2);
+
+    & .loading-block {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        padding: 10px;
+        border-radius: 13px;
+    }
+
+    &__spinner,
+    &__loading-text {
+        color: #fff;
+    }
+
+    &__loading-text {
+        padding-left: 8px;
+    }
+}

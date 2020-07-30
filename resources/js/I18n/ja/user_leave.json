@@ -1,9 +1,0 @@
-{
-    "user_leave" : {
-        "list_user_leave" : "退会理由",
-        "reason" : "理由",
-        "id" : "ID",
-        "description" : "詳細",
-        "leaved_at" : "退会日時"
-    }
-}

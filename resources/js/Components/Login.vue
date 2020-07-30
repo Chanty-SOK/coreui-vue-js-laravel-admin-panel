@@ -4,18 +4,18 @@
       <CCol sm="7">
         <CCard class="p-4">
           <CForm>
-            <h1>{{$t('common.login')}}</h1>
-            <p class="text-muted">{{$t('common.sign_in_to_your_account')}}</p>
+            <h1>Login</h1>
+            <p class="text-muted">Welcome Back</p>
             <CInput
               v-model="username"
               type="text"
-              :placeholder="[[$t('common.user_name')]]"
+              placeholder="Input your Username..."
               autocomplete="username email"
             ></CInput>
             <CInput
               v-model="password"
               type="password"
-              :placeholder="[[$t('common.password')]]"
+              placeholder="Input your password..."
               autocomplete="curent-password"
             ></CInput>
             <CRow class="w-100 justify-content-center">
@@ -24,7 +24,7 @@
                 class="px-4 text-right"
                 variant="outline"
                 v-on:click="login()"
-              >{{$t('common.login')}}</CButton>
+              >Login</CButton>
             </CRow>
           </CForm>
         </CCard>
@@ -89,15 +89,13 @@ export default {
   },
   methods: {
     login() {
-      this.$store.commit("setLoading", true);
-      this.$store
-        .dispatch("login", { username: this.username, password: this.password })
-        .then((response) => {
-          this.$store.dispatch("getUser");
-          this.$router.push({
-            path: "/",
-          });
-        });
+      // this.$store.commit("setLoading", true);
+      // this.$store
+      //   .dispatch("login", { username: this.username, password: this.password })
+      //   .then((response) => {
+      //     this.$store.dispatch("getUser");
+      this.$router.push({ name: "master" });
+      // });
     },
   },
 };

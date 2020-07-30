@@ -1,5 +1,6 @@
 import Master from "../Components/Layout/Master";
 import Login from "../Components/Login";
+import UserList from '../Components/User/List';
 import Profile from "../Components/Profile/Profile";
 
 export default [{
@@ -14,18 +15,27 @@ export default [{
     },
     {
         path: "/",
+        name: "master",
         components: {
             default: Master
         },
         meta: {
-            requiresAuth: true
+            isAnonymus: true
         },
         children: [{
-            path: '/profile',
-            name: 'profile',
-            components: {
-                default: Profile
-            }
-        }, ]
+                path: '/profile',
+                name: 'profile',
+                components: {
+                    default: Profile
+                }
+            },
+            {
+                path: 'admin/user',
+                name: 'List',
+                components: {
+                    default: UserList
+                }
+            },
+        ]
     },
 ];

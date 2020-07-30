@@ -1,0 +1,24 @@
+.c-sidebar .c-sidebar-nav-dropdown-toggle {
+
+    &::after {
+        transform: rotate(-180deg);
+    }
+}
+.c-sidebar-logo {
+    & img {
+        max-height: 42px;
+    }
+}
+
+.c-sidebar-nav-title {
+    
+    color: #fff;
+    
+    background: rgba(#1a2226, 0.5);
+
+    &:first-child {
+        // padding: 1rem;
+        margin-top: 0;
+        font-size: 90%;
+    }
+}

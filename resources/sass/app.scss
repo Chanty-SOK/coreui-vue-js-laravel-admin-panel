@@ -1,1 +1,38 @@
-//
+@import "./vendor/coreui/coreui.scss";
+
+@import "./color.scss";
+@import "./components/*";
+@import "./pages/*";
+
+.c-header {
+    border-bottom: 0;
+}
+.table td {
+    vertical-align: middle;
+}
+.modal {
+    top: 40px;
+}
+.modal-center {
+    & .modal-header {
+        & .close {
+            color: #ffffff;
+            font-size: 1.5125rem;
+        }
+    }
+    & .modal-content {
+        border: 0;
+        box-shadow: 0 5px 10px 0 rgba(#000000, 0.1);
+    }
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 0 .5px 1px 0 rgba(#000000, 0.1);
+    border: 0;
+}
+
+.bg-light{
+    background-color: #ffffff !important;
+}
+

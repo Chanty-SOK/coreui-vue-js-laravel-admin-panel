@@ -75,6 +75,7 @@
         "vuex-logger-plugin": "^1.0.1"
     },
     "dependencies": {
-        "@coreui/vue": "^3.1.2"
+        "@coreui/vue": "^3.1.2",
+        "vue-i18n": "^8.19.0"
     }
 }
